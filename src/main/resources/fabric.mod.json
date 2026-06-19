@@ -1,0 +1,22 @@
+﻿{
+  "schemaVersion": 1,
+  "id": "nocreepergrief",
+  "version": "${version}",
+  "name": "No Creeper Grief",
+  "description": "Prevents creepers from destroying blocks when they explode. Players still take damage.",
+  "authors": ["Custom"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.nocreepergrief.NoCreeperGrief"]
+  },
+  "mixins": ["nocreepergrief.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21.4",
+    "fabric-api": "*",
+    "java": ">=21"
+  },
+  "suggests": {}
+}

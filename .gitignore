@@ -1,0 +1,11 @@
+﻿build/
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+*.jar
+*.log
+.idea/
+*.iml
+.vscode/
+run/
