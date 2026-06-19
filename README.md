@@ -2,9 +2,13 @@
 
 一个轻量 Fabric 模组，**禁止苦力怕爆炸破坏方块**，保留玩家伤害，不影响其他生物破坏。
 
+## 下载
+
+[⬇️ 下载 v1.0.0 (Minecraft 1.21.4 + Fabric)](https://github.com/yexueshenghan/NoCreeperGrief/releases/tag/v1.0.0)
+
 ## 功能
 
-- 苦力怕爆炸 → **不掉血、不炸坑**（玩家受伤保留）
+- 苦力怕爆炸 → **不炸坑**，玩家依然受伤
 - 末影人搬方块、羊吃草等 → **不受影响**
 - 纯服务端，客户端无需安装
 
@@ -16,7 +20,7 @@
 
 ## 安装
 
-1. 将 `NoCreeperGrief-1.0.0.jar` 放入服务端 `mods/` 文件夹
+1. 将 `NoCreeperGrief-1.21.4-fabric-1.0.0.jar` 放入服务端 `mods/` 文件夹
 2. 重启服务器
 3. 进游戏，苦力怕爆炸不再破坏地形
 
@@ -26,7 +30,7 @@
 ./gradlew build
 ```
 
-构建产物位于 `build/libs/NoCreeperGrief-1.0.0.jar`
+构建产物位于 `build/libs/NoCreeperGrief-1.21.4-fabric-1.0.0.jar`
 
 ## 原理
 
