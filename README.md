@@ -1,41 +1,41 @@
 # NoCreeperGrief
 
-Ò»¸öÇáÁ¿ Fabric Ä£×é£¬**½ûÖ¹¿àÁ¦ÅÂ±¬Õ¨ÆÆ»µ·½¿é**£¬²»Ó°ÏìÆäËûÉúÎïÆÆ»µĞĞÎª¡£
+ä¸€ä¸ªè½»é‡ Fabric æ¨¡ç»„ï¼Œ**ç¦æ­¢è‹¦åŠ›æ€•çˆ†ç‚¸ç ´åæ–¹å—**ï¼Œä¸å½±å“å…¶ä»–ç”Ÿç‰©ç ´åè¡Œä¸ºã€‚
 
-## ÏÂÔØ
+## ä¸‹è½½
 
-[?? ÏÂÔØ v1.0.0 (Minecraft 1.21.4 + Fabric)](https://github.com/yexueshenghan/NoCreeperGrief/releases/tag/v1.0.0)
+[â¬‡ï¸ ä¸‹è½½ v1.0.0 (Minecraft 1.21.4 + Fabric)](https://github.com/yexueshenghan/NoCreeperGrief/releases/tag/v1.0.0)
 
-## ¹¦ÄÜ
+## åŠŸèƒ½
 
-- ¿àÁ¦ÅÂ±¬Õ¨²»ÔÙÆÆ»µµØĞÎ
-- ²»Ó°ÏìÆäËûÉúÎï£¨Ä©Ó°ÈË¡¢ÑòµÈ£©µÄÕı³£ĞĞÎª
+- è‹¦åŠ›æ€•çˆ†ç‚¸ä¸å†ç ´ååœ°å½¢
+- ä¸å½±å“å…¶ä»–ç”Ÿç‰©ï¼ˆæœ«å½±äººã€ç¾Šç­‰ï¼‰çš„æ­£å¸¸è¡Œä¸º
+- å³è£…å³ç”¨ï¼Œæ— éœ€é…ç½®
 
-- ¼´×°¼´ÓÃ£¬ÎŞĞèÅäÖÃ
-
-## ÊÊÓÃ°æ±¾
+## é€‚ç”¨ç‰ˆæœ¬
 
 - Minecraft 1.21.4
-- Fabric Loader ¡İ 0.16.0
-- Fabric API£¨±ØĞè£©
+- Fabric Loader â‰¥ 0.16.0
+- Fabric APIï¼ˆå¿…éœ€ï¼‰
 
-## °²×°
+## å®‰è£…
 
-1. ½« `NoCreeperGrief-1.21.4-fabric-1.0.0.jar` ·ÅÈë·şÎñ¶Ë `mods/` ÎÄ¼ş¼Ğ
-2. ÖØÆô·şÎñÆ÷
+- **æœåŠ¡ç«¯**: å°† NoCreeperGrief-1.21.4-fabric-1.0.0.jar æ”¾å…¥ mods/ æ–‡ä»¶å¤¹
+- **å®¢æˆ·ç«¯**: å°† NoCreeperGrief-1.21.4-fabric-1.0.0.jar æ”¾å…¥ .minecraft/mods/ æ–‡ä»¶å¤¹
+- é‡å¯æœåŠ¡å™¨/å®¢æˆ·ç«¯
 
-## ¹¹½¨
+## æ„å»º
 
-```bash
+`ash
 ./gradlew build
-```
+`
 
-¹¹½¨²úÎïÎ»ÓÚ `build/libs/NoCreeperGrief-1.21.4-fabric-1.0.0.jar`
+æ„å»ºäº§ç‰©ä½äº uild/libs/NoCreeperGrief-1.21.4-fabric-1.0.0.jar
 
-## Ô­Àí
+## åŸç†
 
-Ê¹ÓÃ Mixin ×¢Èëµ½ `ExplosionImpl.shouldDestroyBlocks()`£¬¼ì²â±¬Õ¨À´Ô´Îª¿àÁ¦ÅÂÊ±Ìø¹ı·½¿éÆÆ»µÂß¼­¡£
+ä½¿ç”¨ Mixin æ³¨å…¥åˆ° ExplosionImpl.shouldDestroyBlocks()ï¼Œæ£€æµ‹çˆ†ç‚¸æ¥æºä¸ºè‹¦åŠ›æ€•æ—¶è·³è¿‡æ–¹å—ç ´åé€»è¾‘ã€‚
 
-## Ğí¿É
+## è®¸å¯
 
 MIT
